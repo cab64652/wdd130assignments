@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #D6D5C9;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -25,15 +28,27 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
 
 body {
     background-color: #14213D;
+    font-family: 'roboto slab', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
-header{
+h2 {
+    margin: 0;
+}
+
+header {
     background-color: #134266;
 }
 
@@ -42,10 +57,14 @@ nav a:hover {
     color: #D6D5C9;
 }
 
-.book, .join{
+.book, .join {
     background-color:  #A33B20;
     color: #D6D5C9;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -59,6 +78,8 @@ nav a:hover {
 
 .msg {
     background-color:  #134266;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -67,11 +88,15 @@ nav a:hover {
 
 .msg p {
     color: #D6D5C9;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #134266;
     color: #D6D5C9;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -91,22 +116,42 @@ footer p a:hover {
     text-decoration: underline;
 }    
 
+footer .social img {
+    padding-top: 15px;
+}  
+
 .home-title {
     color: #FCE172;
+    font-family: 'Bebas Neue', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card  {
+    margin: 200px 0;
 }
 
 h4 {
-    color: #FCE172;
+    color: #D6D5C9;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
 }
