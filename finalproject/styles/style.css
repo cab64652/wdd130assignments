@@ -32,6 +32,7 @@ nav a {
 
 .logo {
     width: 80px;
+    border-radius: 45%;
 }
 
 #logo_link {
@@ -77,22 +78,23 @@ nav a {
 
 .home-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 body {
     background-color: #3F612D;
     font-family: 'Montserrat';
     font-size: 22px;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
 
 .card-img {
     width: 100%;
-    border: 10px solid #d9c2a3;
+    border: 10px solid #8D5B4C;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px black; 
 }
 
 .card-img:hover {
@@ -103,48 +105,62 @@ body {
 .nature-park-card {
     color: #D6D5C9;
     margin: 200px 0;
-    grid-column: 2/4;
+    grid-column: 2/6;
     grid-row: 2/3;
 }
 
 .eagle-park-card{
     color: #D6D5C9;
-    margin: 200px 0;
-    grid-column: 5/7;
+    margin: 300px 0 0 0;
+    grid-column: 7/11;
     grid-row: 2/3;
 }
 
 .fish-lures-card {
     color: #D6D5C9;
-    margin: 200px 0;
-    grid-column: 8/10;
+    margin: 400px 0 100px 0;
+    grid-column: 12/16;
     grid-row: 2/3;
 }
 
 .msg {
-    /* background-color: #3F612D; */
+    background-color: #3F612D;
     line-height: 1.5em;
+    margin-top: 75px;
     padding: 35px;
-    grid-column: 3/10;
-    grid-row: 6/7;
-    /* box-shadow: 5px 5px 10px black; */
+    grid-column: 6/12;
+    grid-row: 8/10;
+    box-shadow: 5px 5px 10px black;
 }
 
 .msg h2 {
-    color: #fce172;
+    color: #FFC914;
 }
 
 .msg p {
     color: #D6D5C9;
     font-size: 0.8em;
-    padding-bottom: 15px;
 }
+
+#background {
+    background-color: #8D5B4C;
+    height: 1125px;
+    grid-column: 1/-1;
+    grid-row: 4/11;
+}
+
+.fishing {
+    width: 100%;
+    grid-column: 3/15;
+    grid-row: 5/9;
+}
+
 
 footer {
     background-color: #3F612D;
     color: #D6D5C9;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
