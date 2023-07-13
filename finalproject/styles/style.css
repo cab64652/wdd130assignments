@@ -191,3 +191,114 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 } 
+
+/* CSS For Locations Page */
+
+.nature-park {
+    background-color: #8D5B4C;
+    margin-bottom: 200px;
+    padding: 50px 0 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nature-park h1 {
+    font-family: 'Bangers';
+    color: #3F612D;
+    text-shadow: 5px 5px 10px black;
+    font-size: 3em;
+    grid-column: 2/-2;
+    grid-row: 1/2;
+}
+
+.nature-park a {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    justify-self: left;
+    padding-top: 60px;
+    margin-left: -40px;
+}
+
+.nature-park-img {
+    width: 100%;
+    grid-column: 2/-2;
+    box-shadow: 5px 5px 10px black;
+}
+
+.nature-park p {
+    padding: 35px;
+    margin: 35px;
+    background-color: #3F612D;
+    grid-column: 1/-1;
+    grid-row: 3/4;
+    box-shadow: 5px 5px 10px black;
+}
+
+.eagle-park{
+    background-color: #8D5B4C;
+    margin-bottom: 200px;
+    padding: 50px 0 150px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.eagle-park h1 {
+    font-family: 'Bangers';
+    color: #3F612D;
+    text-shadow: 5px 5px 10px black;
+    font-size: 3em;
+    grid-column: 2/-2;
+    grid-row: 1/2;
+}
+
+.eagle-park a {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    justify-self: left;
+    padding-top: 60px;
+    margin-left: -40px;
+}
+
+.eagle-park-img {
+    width: 100%;
+    grid-column: 1/4;
+    margin: 0 35px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.eagle-park p {
+    padding: 15px;
+    margin: 0 45px;
+    background-color: #3F612D;
+    grid-column: 4/-1;
+    box-shadow: 5px 5px 10px black;
+}
+
+.fish-lures{
+    background-color: #8D5B4C;
+    margin-bottom: 50px;
+    padding: 150px 0 150px 0;
+    
+}
+
+.fish-lures a {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+    
+.fish-lures a img {
+    width: 100%;
+    grid-column: 2/-2;
+    grid-row: 1/5;
+    
+    box-shadow: 5px 5px 10px black;
+}
+
+.fish-lures a h2 {
+    grid-column: 4/-4;
+    font-size: 1.4em;
+    grid-row: 2/3;
+    font-family: 'Bangers';
+    color: #FFC914;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px black;
+}
