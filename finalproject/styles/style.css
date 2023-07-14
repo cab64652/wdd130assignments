@@ -98,7 +98,6 @@ body {
 }
 
 .card-img:hover {
-    opacity: .6;
     transform: scale(1.1);
 }
 
@@ -280,20 +279,19 @@ footer .social img {
     
 }
 
-.fish-lures a {
+.fish-lures {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
     
-.fish-lures a img {
+.fish-lures img {
     width: 100%;
     grid-column: 2/-2;
     grid-row: 1/5;
-    
     box-shadow: 5px 5px 10px black;
 }
 
-.fish-lures a h2 {
+.fish-lures a {
     grid-column: 4/-4;
     font-size: 1.4em;
     grid-row: 2/3;
@@ -301,4 +299,9 @@ footer .social img {
     color: #FFC914;
     text-decoration: none;
     text-shadow: 5px 5px 10px black;
+}
+
+.fish-lures a h2:hover {
+    transition: transform .5s;
+    transform: scale(1.1);
 }
