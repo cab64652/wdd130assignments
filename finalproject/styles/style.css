@@ -194,93 +194,93 @@ footer .social img {
 
 .nature-park {
     background-color: #8D5B4C;
-    margin-bottom: 200px;
-    padding: 50px 0 50px 0;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .nature-park h1 {
     font-family: 'Bangers';
     color: #3F612D;
     text-shadow: 5px 5px 10px black;
-    font-size: 3em;
+    font-size: 2.75em;
     grid-column: 2/-2;
     grid-row: 1/2;
 }
 
 .nature-park a {
-    grid-column: 5/6;
+    grid-column: 6/7;
     grid-row: 1/2;
     justify-self: left;
-    padding-top: 60px;
-    margin-left: -40px;
+    padding-top: 55px;
 }
 
 .nature-park-img {
     width: 100%;
-    grid-column: 2/-2;
+    grid-column: 3/-3;
     box-shadow: 5px 5px 10px black;
 }
 
 .nature-park p {
     padding: 35px;
-    margin: 35px;
     background-color: #3F612D;
-    grid-column: 1/-1;
+    color: #D6D5C9;
+    grid-column: 2/-2;
     grid-row: 3/4;
     box-shadow: 5px 5px 10px black;
 }
 
 .eagle-park{
     background-color: #8D5B4C;
-    margin-bottom: 200px;
-    padding: 50px 0 150px 0;
+    margin-bottom: 50px;
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .eagle-park h1 {
     font-family: 'Bangers';
     color: #3F612D;
     text-shadow: 5px 5px 10px black;
-    font-size: 3em;
+    font-size: 2.75em;
     grid-column: 2/-2;
     grid-row: 1/2;
 }
 
 .eagle-park a {
-    grid-column: 5/6;
+    grid-column: 6/7;
     grid-row: 1/2;
     justify-self: left;
-    padding-top: 60px;
-    margin-left: -40px;
+    padding-top: 55px;
 }
 
 .eagle-park-img {
     width: 100%;
-    grid-column: 1/4;
-    margin: 0 35px;
+    grid-column: 2/-3;
+    grid-row: 2/5;
     box-shadow: 5px 5px 10px black;
 }
 
 .eagle-park p {
     padding: 15px;
-    margin: 0 45px;
     background-color: #3F612D;
-    grid-column: 4/-1;
+    color: #D6D5C9;
+    grid-column: 5/-2;
+    grid-row: 3/4;
     box-shadow: 5px 5px 10px black;
 }
 
 .fish-lures {
     background-color: #8D5B4C;
     margin-bottom: 50px;
-    padding: 150px 0 150px 0;
+    padding: 50px 0 50px 0;
     
 }
 
 .fish-lures {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
     
 .fish-lures img {
@@ -291,8 +291,8 @@ footer .social img {
 }
 
 .fish-lures a {
-    grid-column: 4/-4;
-    font-size: 1.4em;
+    grid-column: 3/-3;
+    font-size: 1.2em;
     grid-row: 2/3;
     font-family: 'Bangers';
     color: #FFC914;
